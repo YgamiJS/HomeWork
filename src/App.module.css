@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  height: 80px;
+  background-color: #307FBD;
+}
+header .logo,
+footer .logo {
+  color: white;
+  font-size: 2.1em;
+  position: relative;
+  left: 5%;
+  top: 50%;
+  transform: translate(5%, -50%);
+  font-size: calc(24px + 1.25vw);
+}
+@media (max-width: 767px) {
+  header .logo,
+footer .logo {
+    font-size: calc(24px + 28.8 * (100vw - 320px) / 1280);
+  }
+}
+
+.content {
+  display: flex;
+  flex: 1 0 auto;
+  font-size: 1.2em;
+  height: auto;
+  margin: 28px 0px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content table {
+  border-spacing: 2.5px;
+}
+.content h1 {
+  font-size: 2em;
+}
+.content h1:first-letter {
+  text-transform: uppercase;
+}
+.content h2 {
+  margin: 8px;
+}
+
+tr .homeWorkName {
+  background-color: #307FBD;
+  color: white;
+  width: 15vw;
+}
+tr .homeWorkName:first-letter {
+  text-transform: uppercase;
+}
+tr .homeWorkInfo {
+  width: 40vw;
+  text-align: start;
+  word-break: break-all;
+}
+tr .homeWorkInfo:first-letter {
+  text-transform: uppercase;
+}
+tr td {
+  background-color: rgba(174, 174, 174, 0.511);
+  text-align: center;
+  padding: 5px;
+}/*# sourceMappingURL=App.module.css.map */
