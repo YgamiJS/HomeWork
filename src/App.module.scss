@@ -46,6 +46,7 @@ footer
     justify-content: center;
     table{
         border-spacing: 2.5px;
+        white-space: break-spaces;
     }
     h1{
         font-size: 2em;
@@ -64,7 +65,7 @@ footer
             color: white;
             width: 15vw;
             text-align: start;
-            word-break: break-all;
+            // word-break: break-all;
             
             &:first-letter{
                 text-transform: uppercase;
@@ -81,9 +82,7 @@ footer
         }
         td{
             background-color: $BgColorTable;
-            // border: 3px solid black;
             text-align: center;
             padding: 5px;
-            // border-radius: 1px;
         }
     }
