@@ -1,10 +1,12 @@
 $BgColorTable: rgba(174, 174, 174, 0.511);
 $BgColorwhite: white;
 $BgColorBlue: #307FBD;
+
 * {
     margin: 0;
     padding: 0;
 }
+
 body{
     background-color: $BgColorwhite;
     font-family: 'Inter' , sans-serif;
@@ -16,6 +18,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 header,
 footer
 {
@@ -32,14 +35,10 @@ footer
     flex: 1 0 auto;
     font-size: 1.2em;
     height: auto;
-    margin: 28px 0px;
+    margin: 28px 5px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    table{
-        border-spacing: 2.5px;
-        white-space: break-spaces;
-    }
     h1{
         font-size: 2em;
         &:first-letter{
@@ -52,30 +51,32 @@ footer
     }
 
     }
-    tr{
-        .homeWorkName{
-            background-color: $BgColorBlue;
-            color: white;
-            width: 15vw;
-            text-align: start;
-            // word-break: break-all;
-            
-            &:first-letter{
-                text-transform: uppercase;
+    table{
+        border-spacing: 2.5px;
+        tr{
+            .homeWorkName{
+                background-color: $BgColorBlue;
+                color: white;
+                width: 15vw;
+                text-align: start;
+                &:first-letter{
+                    text-transform: uppercase;
+                }
             }
-
-        }
-        .homeWorkInfo{
-            width: 40vw;
-            text-align: start;
-            word-break: break-all;
-            &:first-letter{
-                text-transform: uppercase;
+            .homeWorkInfo{
+                width: 40vw;
+                text-align: start;
+                word-break: break-all;
+                white-space: break-spaces;
+                &:first-letter{
+                    text-transform: uppercase;
+                }
             }
-        }
-        td{
-            background-color: $BgColorTable;
-            text-align: center;
-            padding: 5px;
-        }
+            td{
+                background-color: $BgColorTable;
+                text-align: center;
+                padding: 5px;
+                white-space: nowrap;
+            }
     }
+}
