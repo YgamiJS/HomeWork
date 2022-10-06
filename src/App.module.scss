@@ -63,6 +63,8 @@ footer
             background-color: $BgColorBlue;
             color: white;
             width: 15vw;
+            text-align: start;
+            word-break: break-all;
             
             &:first-letter{
                 text-transform: uppercase;
