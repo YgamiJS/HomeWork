@@ -62,6 +62,9 @@ footer
                 &:first-letter{
                     text-transform: uppercase;
                 }
+                @media (min-width: 1024px){
+                    width: 15vw;
+                }
             }
             .homeWorkInfo{
                 width: 40vw;
