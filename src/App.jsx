@@ -1,10 +1,11 @@
 import { Header , Footer } from './Components/HeaderFooter.jsx'
-import Week from './Components/Week.jsx'
+import Content from './Components/Content.jsx'
+
 export default function App() {
   return (
     <>
       <Header />
-      <Week />
+      <Content />
       <Footer />
     </>
   )
