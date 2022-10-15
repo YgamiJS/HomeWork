@@ -1,7 +1,7 @@
 export default function Disqus(){
   return (
     <>
-      div id="disqus_thread"></div>
+      <div id="disqus_thread"></div>
 <script>
     (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
