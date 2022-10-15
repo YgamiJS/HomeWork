@@ -3,7 +3,7 @@ export default function Disqus(){
     <>
      <div id="disqus_thread"></div>
 <script>
-    (function() { // DON'T EDIT BELOW THIS LINE
+    (function() {
     var d = document, s = d.createElement('script');
     s.src = 'https://disqus-rhi7dnred7.disqus.com/embed.js';
     s.setAttribute('data-timestamp', +new Date());
