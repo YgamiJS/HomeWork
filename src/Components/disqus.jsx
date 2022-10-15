@@ -1,4 +1,4 @@
-export defaut function Disqus(){
+export default function Disqus(){
   return (
     <>
       div id="disqus_thread"></div>
