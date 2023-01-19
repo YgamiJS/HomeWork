@@ -1,0 +1,31 @@
+@use "../../App.scss" as styled;
+
+.h1::first-letter {
+    text-transform: uppercase;
+}
+
+.table {
+    width: 100%;
+    border-spacing: 2.5px;
+
+    tr {
+        .homeWorkName {
+            background: styled.$BgColorBlue;
+            color: styled.$BgColorwhite;
+            padding: 5px;
+            width: 40%;
+        }
+        .homeWorkTask {
+            background: styled.$BgColorTable;
+            color: styled.$BgColorwhite;
+            padding: 5px;
+            width: 60%;
+        }
+
+        .homeWorkTask::first-letter {
+            text-transform: uppercase;
+        }
+        td {
+        }
+    }
+}

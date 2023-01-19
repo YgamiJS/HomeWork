@@ -1,0 +1,65 @@
+[
+    {
+        "day": "понедельник",
+        "lessons": [
+            { "name": "Иностранный язык ", "homeWork": "" },
+            { "name": "Информатика", "homeWork": "" },
+            { "name": "Русский язык", "homeWork": "" },
+            { "name": "Биология", "homeWork": "" },
+            { "name": "Математика", "homeWork": "" },
+            { "name": "Физическая культура", "homeWork": "" },
+            { "name": "", "homeWork": "" }
+        ]
+    },
+    {
+        "day": "вторник",
+        "lessons": [
+            { "name": "Физика", "homeWork": "" },
+            { "name": "ИЗО", "homeWork": "" },
+            { "name": "Русский язык", "homeWork": "Упр. 111" },
+            { "name": "Обществознание", "homeWork": "§4" },
+            { "name": "Литература", "homeWork": "Ломоносов чит переcказ" },
+            { "name": "Математика", "homeWork": "Номера 49 54" },
+            { "name": "Музыка", "homeWork": "" }
+        ]
+    },
+    {
+        "day": "среда",
+        "lessons": [
+            { "name": "Технология", "homeWork": "" },
+            { "name": "Технология", "homeWork": "" },
+            {
+                "name": "Литература",
+                "homeWork": "Разобрать к простым словам стр 78 "
+            },
+            { "name": "Иностранный язык", "homeWork": "" },
+            { "name": "Математика", "homeWork": "" },
+            { "name": "ОНДКР", "homeWork": "" },
+            { "name": "История", "homeWork": "" }
+        ]
+    },
+    {
+        "day": "четверг",
+        "lessons": [
+            { "name": "Математика", "homeWork": "" },
+            { "name": "Родная литература", "homeWork": "" },
+            { "name": "Русский язык", "homeWork": "Упр. 114" },
+            { "name": "География", "homeWork": "" },
+            { "name": "Физика", "homeWork": "SS 14" },
+            { "name": "Физическая культура", "homeWork": "" },
+            { "name": "", "homeWork": "" }
+        ]
+    },
+    {
+        "day": "пятница",
+        "lessons": [
+            { "name": "Иностранный язык", "homeWork": "" },
+            { "name": "История", "homeWork": "" },
+            { "name": "Русский язык", "homeWork": "" },
+            { "name": "Математика", "homeWork": "" },
+            { "name": "География", "homeWork": "" },
+            { "name": "Физическая культура", "homeWork": "" },
+            { "name": "", "homeWork": "" }
+        ]
+    }
+]

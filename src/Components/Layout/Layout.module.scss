@@ -1,0 +1,10 @@
+@use "../../App.scss" as styled;
+
+.layout {
+    background: styled.$BgColorBlue;
+    padding: 15px;
+    .logo {
+        color: styled.$BgColorwhite;
+        text-align: center;
+    }
+}
