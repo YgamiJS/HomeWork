@@ -1,5 +1,9 @@
 @use "../../App.scss" as styled;
 
+.dairy {
+    margin: 15px auto !important;
+}
+
 .h1::first-letter {
     text-transform: uppercase;
 }
@@ -24,8 +28,6 @@
 
         .homeWorkTask::first-letter {
             text-transform: uppercase;
-        }
-        td {
         }
     }
 }

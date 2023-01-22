@@ -7,3 +7,7 @@ export interface ILesson {
     name: string;
     homeWork: string;
 }
+
+export interface IData {
+    data: IWeek[];
+}
