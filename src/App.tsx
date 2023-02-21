@@ -1,6 +1,6 @@
 import Layout from "@/Components/Layout/Layout";
-import { Comments } from "@/Components/Comments/Comments";
-import { Diary } from "@/Components/Diary/Diary";
+import { Comments } from "@/Components";
+import { Diary } from "@/Components";
 import data from "@/data.json";
 import "@/App.scss";
 
