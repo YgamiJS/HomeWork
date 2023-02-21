@@ -1,4 +1,4 @@
-const Comments = () => {
+export const Comments = () => {
     (function () {
         var d = document,
             s = d.createElement("script");
@@ -8,5 +8,3 @@ const Comments = () => {
     })();
     return <div id="disqus_thread"></div>;
 };
-
-export default Comments;

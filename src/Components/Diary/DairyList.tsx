@@ -1,8 +1,8 @@
-import { IWeek, IData } from "../../types/types";
-import DairyItem from "./DairyItem";
+import { IWeek, IData } from "@/types/types";
+import { DairyItem } from "./DairyItem";
 import styled from "./Dairy.module.scss";
 
-const DairyList = ({ data }: IData) => {
+export const DairyList = ({ data }: IData) => {
     return (
         <div>
             {data.map((lesson) => (
@@ -14,5 +14,3 @@ const DairyList = ({ data }: IData) => {
         </div>
     );
 };
-
-export default DairyList;

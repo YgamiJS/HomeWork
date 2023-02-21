@@ -1,12 +1,12 @@
 import { FC } from "react";
-import { IWeek } from "../../types/types";
+import { IWeek } from "@/types/types";
 import styled from "./Dairy.module.scss";
 
 interface Data {
     lesson: IWeek;
 }
 
-const DairyItem: FC<Data> = ({ lesson }) => {
+export const DairyItem: FC<Data> = ({ lesson }) => {
     return (
         <table className={styled.table}>
             {lesson.lessons.map((less) => (
@@ -20,5 +20,3 @@ const DairyItem: FC<Data> = ({ lesson }) => {
         </table>
     );
 };
-
-export default DairyItem;
